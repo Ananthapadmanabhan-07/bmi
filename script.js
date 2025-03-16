@@ -13,7 +13,7 @@ function calculateBMI() {
             let imageUrl = "" ;
             if (bmi < 18.5) {
                 category = "Underweight";
-                imageUrl = "image.png"; // Add actual image path
+                imageUrl = "normal.jpg"; // Add actual image path
             } else if (bmi < 24.9) {
                 category = "Normal weight";
                 imageUrl = "normal.jpg"; // Add actual image path
